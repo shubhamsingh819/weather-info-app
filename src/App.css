@@ -1,0 +1,52 @@
+.customlocation-main-container {
+  display: flex;
+  justify-content: center;
+}
+.customlocation-form {
+  width: 30%;
+  text-align: start;
+  margin-top: 10px;
+}
+
+.weather-display {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-card {
+  width: 30rem;
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .weather-card {
+    width: auto;
+  }
+}
+
+.custom-form-label {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-left: 100px;
+}
+
+@media (max-width: 767px) {
+  .weather-card {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.line-style {
+  border-top: 5px solid white;
+  margin-top: 10px;
+}
+
+.main-container {
+  background: url("https://ik.imagekit.io/d5scjfbjc/index_0nNrywa8ul.svg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
